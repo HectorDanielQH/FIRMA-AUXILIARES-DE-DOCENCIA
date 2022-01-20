@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    width: 99%;
+    margin: auto;
+}
+.cabecera{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+#navegador{
+    background-color: darkgoldenrod;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    height: 60%;
+}
+#navegador ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.cabecera nav li{
+    list-style: none;
+}
+.cabecera nav a{
+    text-decoration: none;
+    color: white;
+}
+.medio
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 10px;
+    gap: 10px;
+    padding: 10px 30px;
+    background-color: teal;
+}
+
+.univ{
+    background-color: darkgoldenrod;
+    padding: 10px 10px;
+}
